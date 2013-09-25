@@ -15,22 +15,21 @@
 
 	<!-- Name der App -->
     <name>
-		Mechatronik HsKA
+		Beebop
 	</name>
 
 	<!-- Beschreibung der App -->
     <description>
-		Diese App soll den Studiengang "Mechatronik" der Hochschule Karlsruhe vorstellen.
+		Beebop-Sound
     </description>
 
 	<!-- Autoren -->
-    <author href="http://www.hs-karlsruhe.de" email="bernhard.beck@hs-karlsruhe.de">
-        Alexander Hehn, David Koscheck, Linda Saager und Christopher Weber - Studenten der Mecahtronik an der Hochschule Karlsruhe - Technik und Wirtschaft.
+    <author>
+        Alexander Hehn, Christopher Weber
     </author>
 
     <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
     <feature name="http://api.phonegap.com/1.0/device" />
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="debug-server" required="true">
