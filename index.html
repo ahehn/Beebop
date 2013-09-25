@@ -31,7 +31,10 @@
 			<div data-role="content">
 				<a data-role="button" data-theme="a" data-icon="delete" onClick="document.getElementById('sound').play();">Beebop</a>
 				<a data-role="button" data-theme="a" data-icon="delete" onClick="navigator.app.exitApp();">App Beenden</a>
-				<audio id="sound" src="beebop.mp3">
+				<!-- <audio  src="beebop.mp3"> -->
+				<audio id="sound" autoplay autobuffer>
+					<source src="beebop.mp3" type="audio/mpeg" />
+				</audio>
 			</div>
 		</div>
 	</body>
