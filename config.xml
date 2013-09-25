@@ -26,7 +26,19 @@
 	<!-- Autoren -->
     <author>
         Alexander Hehn & Christopher Weber
-    </author>	
+    </author>
+
+    <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
+    <feature name="http://api.phonegap.com/1.0/device" />
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="debug-server" required="true">
+		<param name="domain" value="http://debug.build.phonegap.com"/>
+		<param name="key" value="de.beebop"/>
+	</feature>
+	
 
     <!--
         If you do not want any permissions to be added to your app, add the
