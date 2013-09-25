@@ -25,20 +25,8 @@
 
 	<!-- Autoren -->
     <author>
-        Alexander Hehn, Christopher Weber
-    </author>
-
-    <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
-    <feature name="http://api.phonegap.com/1.0/device" />
-	<feature name="http://api.phonegap.com/1.0/notification"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="http://api.phonegap.com/1.0/file"/>
-	<feature name="http://api.phonegap.com/1.0/media"/>
-	<feature name="debug-server" required="true">
-		<param name="domain" value="http://debug.build.phonegap.com"/>
-		<param name="key" value="de.hska.mt-app"/>
-	</feature>
-	
+        Alexander Hehn & Christopher Weber
+    </author>	
 
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -49,7 +37,7 @@
 
     <!-- Diverse plattformunabhängige Einstellungen für die App -->
     <preference name="phonegap-version"				value="2.9.0" />		  <!-- all: current version of PhoneGap --> 
-    <preference name="orientation"					value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"					value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"				value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"					value="false" />          <!-- all: hides the status bar at the top of the screen -->
     <preference name="load-url-timeout"				value="60000" />		  <!-- all: set the timeout to 60 sec, to prevent "the connection to the server was unsuccessful..."-errors on Android -->
@@ -67,10 +55,7 @@
     <preference name="android-minSdkVersion"		value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"		value="preferExternal" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	
-    <!-- Barcodescanner-Plugin einbinden -->
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-
-    <!-- App-Icons festlegen -->
+    <!-- App-Icon festlegen -->
 	<icon src="icon.png" />
 
     <!-- Ladescreen festlegen -->
