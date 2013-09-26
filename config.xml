@@ -30,12 +30,6 @@
 
     <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
     <feature name="http://api.phonegap.com/1.0/device" />
-	<feature name="http://api.phonegap.com/1.0/notification"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
-	<feature name="debug-server" required="true">
-		<param name="domain" value="http://debug.build.phonegap.com"/>
-		<param name="key" value="de.hska.mt-app"/>
-	</feature>
 	
 
     <!--
@@ -65,9 +59,6 @@
     <preference name="android-minSdkVersion"		value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"		value="preferExternal" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	
-    <!-- Barcodescanner-Plugin einbinden -->
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
-
     <!-- App-Icon festlegen -->
 	<icon src="icon.png" />
 
