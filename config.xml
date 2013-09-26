@@ -25,7 +25,7 @@
 
 	<!-- Autoren -->
     <author>
-        Alexander Hehn & Christopher Weber
+        Alexander Hehn, Christopher Weber
     </author>
 
     <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
@@ -47,7 +47,7 @@
 
     <!-- Diverse plattformunabhängige Einstellungen für die App -->
     <preference name="phonegap-version"				value="2.9.0" />		  <!-- all: current version of PhoneGap --> 
-    <preference name="orientation"					value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"					value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"				value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"					value="false" />          <!-- all: hides the status bar at the top of the screen -->
     <preference name="load-url-timeout"				value="60000" />		  <!-- all: set the timeout to 60 sec, to prevent "the connection to the server was unsuccessful..."-errors on Android -->
@@ -68,12 +68,12 @@
     <!-- Barcodescanner-Plugin einbinden -->
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 
-    <!-- App-Icon festlegen -->
+    <!-- App-Icons festlegen -->
 	<icon src="icon.png" />
 
     <!-- Ladescreen festlegen -->
     <gap:splash src="loadscreen.png" />
 
     <!-- Zugriff auf alle externen Domains zulassen (notwendig für Navigator bzw. Google Maps) -->	
-	<access />
+	<access origin="*" />
 </widget>
