@@ -29,7 +29,13 @@
     </author>
 
     <!-- Individuelle API-Genehmigungen für das Feststellen der Position und den Zugriff auf das Internet -->
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="debug-server" required="true">
+		<param name="domain" value="http://debug.build.phonegap.com"/>
+		<param name="key" value="de.hska.mt-app"/>
+	</feature>
+
 	
 
     <!--
