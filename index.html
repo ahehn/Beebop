@@ -29,11 +29,11 @@
 
 			<!-- Inhalt der Seite -->
 			<div data-role="content">
-				<a data-role="button" data-theme="a" onClick="document.getElementById('sound').play(); navigator.notification.vibrate(2000);}"><br><br><br>Beebop<br><br><br><br></a>
+				<a data-role="button" data-theme="a" onClick="document.getElementById('sound').play(); navigator.notification.vibrate(2000);"><br><br><br>Beebop<br><br><br><br></a>
 				<br>
 				<br>
 				<br>
-				<a data-role="button" data-theme="a" data-icon="delete" onClick="navigator.app.exitApp();">App Beenden</a>
+				<a data-role="button" data-theme="a" data-icon="delete" onClick="navigator.notification.beep(3); navigator.app.exitApp();">App Beenden</a>
 				<audio id="sound" src="data/beebop.mp3" />
 			</div>
 		</div>
